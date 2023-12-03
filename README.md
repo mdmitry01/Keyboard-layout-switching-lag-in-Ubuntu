@@ -38,7 +38,7 @@ As I said previously, I made this patch 3 years ago and unfortunately, I don't r
 
 ## Download the patched version of libmutter
 
-TODO
+[Go to the releases page](https://github.com/mdmitry01/Keyboard-layout-switching-lag-in-Ubuntu/releases).
 
 ## How to install
 
