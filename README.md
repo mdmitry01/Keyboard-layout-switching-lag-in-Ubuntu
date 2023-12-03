@@ -9,7 +9,11 @@ First things first, here is the patch
 ```diff
 --- mutter-42.9.orig/src/backends/x11/meta-backend-x11.c
 +++ mutter-42.9/src/backends/x11/meta-backend-x11.c
-@@ -377,22 +377,6 @@ handle_host_xevent (MetaBackend *backend
+@@ -373,26 +373,9 @@ handle_host_xevent (MetaBackend *backend
+         {
+           switch (xkb_ev->any.xkb_type)
+             {
+-            case XkbNewKeyboardNotify:
              case XkbMapNotify:
                keymap_changed (backend);
                break;
